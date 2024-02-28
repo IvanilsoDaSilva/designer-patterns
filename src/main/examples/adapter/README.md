@@ -10,7 +10,7 @@
 
 <!-- Animated text -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=FF00FF&size=35&center=true&width=290&lines=SINGLETON"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?color=FF00FF&size=35&center=true&width=290&lines=ADAPTER"/>
 </div>
 
 <h2 align="right">PROBLEMA ❌</h2>

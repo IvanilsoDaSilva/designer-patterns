@@ -29,13 +29,16 @@ Este repositório abriga uma coleção diversificada de exemplos de padrões de 
   ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=FFFFFF&color=FF00FF)&nbsp;
   
   <!-- Languages -->
-  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=FFFFFF&color=FF00FF)&nbsp;
+  ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=FFFFFF&color=FF00FF)&nbsp;
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=FFFFFF&color=FF00FF)&nbsp;
   
   <!-- Frameworks -->
   
   <!-- Softwares -->
-  ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=FFFFFF&color=FF00FF)&nbsp;
+  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=FFFFFF&color=FF00FF)&nbsp;
+
+  <!-- Others -->
+  ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=FFFFFF&color=FF00FF)&nbsp;
   
 </div>
 

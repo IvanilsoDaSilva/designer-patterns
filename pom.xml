@@ -22,7 +22,7 @@
     </repositories>
 
     <build>
-        <sourceDirectory>src/main/singleton</sourceDirectory>
+        <sourceDirectory>src/main/examples</sourceDirectory>
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
         <plugins>
             <plugin>

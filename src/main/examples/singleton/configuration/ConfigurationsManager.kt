@@ -3,8 +3,7 @@ package org.example.configuration
 class ConfigurationsManager{
     private var configurations: MutableMap<String, String>? = null
 
-    init {}
-
+    // Caso ainda não possua uma valor é criada uma novo, se não o mesmo valor retornado sem criar outro
     public fun getConfigurations(): MutableMap<String, String>{
         if (configurations.isNullOrEmpty()) {
             configurations = mutableMapOf()

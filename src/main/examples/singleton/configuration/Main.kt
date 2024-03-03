@@ -1,7 +1,7 @@
 package org.example.configuration
 
 fun main() {
-    var configurations: ConfigurationsManager? = ConfigurationsManager()
+    var configurations: ConfigurationsManager? = ConfigurationsManager();
 
-    println(configurations?.getConfigurations().toString())
+    println(configurations?.getConfigurations().toString());
 }

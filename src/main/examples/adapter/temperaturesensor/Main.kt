@@ -1,7 +1,7 @@
 package org.example.temperaturesensor
 
 fun main() {
-    val temperatureSensor = TemperatureSensor()
+    val temperatureSensor = TemperatureSensor();
 
-    TemperatureAdapter(temperatureSensor).startListening()
+    TemperatureAdapter(temperatureSensor).startListening();
 }

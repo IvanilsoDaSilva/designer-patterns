@@ -20,5 +20,6 @@ Quando temos objetos que podem mudar seu comportamento de acordo com seu estado 
 <h2 align="right">SOLUÇÃO 💡</h2>
 
 O padrão State resolve esse problema dividindo o comportamento condicional em classes separadas, uma para cada estado possível do objeto. Cada classe de estado encapsula o comportamento específico associado a esse estado. O objeto principal mantém uma referência para o estado atual e delega chamadas de métodos para esse estado. Quando ocorre uma transição de estado, o objeto atualiza sua referência de estado para o novo estado.
+
 <!-- Animated img -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FF00FF&height=120&section=footer"/>

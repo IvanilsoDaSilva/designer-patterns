@@ -7,11 +7,11 @@ class Order {
         this.state = PendingOrderState();
     }
 
-    fun setState(state:OrderStateInterface){
+    public fun setState(state:OrderStateInterface){
         this.state = state;
     }
 
-    fun processOrder(){
+    public fun processOrder(){
         this.state?.processOrder(this);
     }
 }

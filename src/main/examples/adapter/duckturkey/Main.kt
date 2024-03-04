@@ -14,12 +14,12 @@ fun main() {
     val duck: Duck = Duck();
     val turkey: Turkey = Turkey();
 
-    //The duck1 does:
+    //O pato faz:
     testDuck(duck);
 
-    //The turkey does:
+    //O peru faz:
     testTurkey(turkey);
 
-    //The turkey adapted a does:
+    //O peru adaptado faz
     testDuck(TurkeyAdapter(turkey));
 }

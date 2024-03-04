@@ -1,11 +1,11 @@
 package org.example.duckturkey
 
 class Duck: DuckInterface {
-    override fun quack() {
+    public override fun quack() {
         println("Quack");
     }
 
-    override fun fly() {
+    public override fun fly() {
         println("I'm flying");
     }
 }

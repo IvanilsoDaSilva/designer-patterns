@@ -9,19 +9,19 @@ class MusicPlayer {
         this.state = MusicPlayState();
     }
 
-    fun setState(state: MusicStateInterface){
+    public fun setState(state: MusicStateInterface){
         this.state = state;
     }
 
-    fun play() {
+    public fun play() {
         state?.musicPlay(this);
     }
 
-    fun pause() {
+    public fun pause() {
         state?.musicPause(this);
     }
 
-    fun stop() {
+    public fun stop() {
         state?.musicStop(this);
     }
 

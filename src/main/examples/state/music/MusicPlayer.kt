@@ -22,5 +22,4 @@ class MusicPlayer {
     public fun stop() {
         state?.musicStop(this);
     }
-
 }

@@ -14,5 +14,4 @@ class MusicPauseState: MusicStateInterface {
         println("Parando a música.");
         music.setState(MusicStopState());
     }
-
 }

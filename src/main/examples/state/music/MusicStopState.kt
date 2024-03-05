@@ -14,5 +14,4 @@ class MusicStopState: MusicStateInterface {
     public override fun musicStop(music: MusicPlayer) {
         println("A música já terminou.");
     }
-
 }

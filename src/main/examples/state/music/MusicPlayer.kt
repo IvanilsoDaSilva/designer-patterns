@@ -1,7 +1,5 @@
 package org.example.music
 
-import state.music.MusicPlayState
-
 class MusicPlayer {
     private var state:MusicStateInterface? = null;
 

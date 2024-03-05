@@ -11,6 +11,7 @@ fun testTurkey(turkey: TurkeyInterface){
 }
 
 fun main() {
+    // Criação dos objetos
     val duck: Duck = Duck();
     val turkey: Turkey = Turkey();
 

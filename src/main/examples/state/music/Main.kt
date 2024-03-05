@@ -1,6 +1,7 @@
 package org.example.music
 
 fun main() {
+    // Criação do objeto
     val player:MusicPlayer = MusicPlayer()
 
     // Tenta reproduzir a música

@@ -4,6 +4,7 @@ class Order {
     private var state: OrderStateInterface? = null;
 
     init {
+        println("Pedido pendente!");
         this.state = PendingOrderState();
     }
 

@@ -1,5 +1,5 @@
-package composite.graphicalinterface
+package org.example.graphicalinterface
 
-interface ComponenteGUI {
+interface ComponentGUI {
     fun renderizar();
 }

@@ -1,25 +1,26 @@
-package org.example.duckturkey
-
-fun testDuck(duck: DuckInterface) {
-    duck.quack();
-    duck.fly();
-}
-
-fun testTurkey(turkey: TurkeyInterface){
-    turkey.gobble();
-    turkey.fly();
-}
+package org.example.graphicalinterface
 
 fun main() {
-    val duck: Duck = Duck();
-    val turkey: Turkey = Turkey();
+    var labelName:Label = Label("Nome");
+    var inputName:Input = Input("Nome");
 
-    //O pato faz:
-    testDuck(duck);
+    var labelCpf:Label = Label("Cpf");
+    var inputCpf:Input = Input("Cpf");
 
-    //O peru faz:
-    testTurkey(turkey);
+    var buttonSubmit:Button = Button("Confirmar");
 
-    //O peru adaptado faz
-    testDuck(TurkeyAdapter(turkey));
+    var painelLogin:Painel = Painel();
+
+    labelName.renderizar();
+    inputCpf.renderizar();
+    buttonSubmit.renderizar();
+
+    painelLogin.addComponent(labelName);
+    painelLogin.addComponent(inputName);
+    painelLogin.addComponent(labelCpf);
+    painelLogin.addComponent(inputCpf);
+    painelLogin.addComponent(buttonSubmit);
+    painelLogin.addComponent(painelLogin);
+
+    painelLogin.renderizar()
 }

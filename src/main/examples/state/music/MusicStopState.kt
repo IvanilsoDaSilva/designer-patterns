@@ -1,7 +1,4 @@
-package state.music
-
-import org.example.music.MusicPlayer
-import org.example.music.MusicStateInterface
+package org.example.music
 
 class MusicStopState: MusicStateInterface {
     public override fun musicPlay(music: MusicPlayer) {

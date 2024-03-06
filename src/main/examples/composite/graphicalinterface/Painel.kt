@@ -7,11 +7,10 @@ class Painel:ComponentGUI {
 
     public fun addComponent(component: ComponentGUI){
         if (!component.equals(this)) {
-            components.addLast(component);
+            components.add(component);
         } else {
-            println("O painel não pode se adicionar")
+            println("O painel não pode se adicionar");
         }
-
     }
 
     public fun removeComponent(component: ComponentGUI){

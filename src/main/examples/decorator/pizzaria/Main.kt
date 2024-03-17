@@ -8,8 +8,9 @@ fun main() {
 
     val pizza:Pizza = PizzaArtesao(ingredients);
 
-    val opcoesPizza:Pizza = StuffedEdge(WholemealPasta(pizza));
+    var opcaoPizza:Pizza =
+        WholemealPasta(StuffedEdge(pizza, "cheese"), 70.00);
 
     println("Pizza sem opções"+pizza.preco());
-    println("Pizza com opções"+opcoesPizza.preco());
+    println("Pizza com opções"+opcaoPizza.preco());
 }

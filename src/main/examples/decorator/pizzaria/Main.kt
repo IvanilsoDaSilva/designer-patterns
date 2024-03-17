@@ -11,6 +11,9 @@ fun main() {
     var opcaoPizza:Pizza =
         WholemealPasta(StuffedEdge(pizza, "cheese"), 70.00);
 
-    println("Pizza sem opções"+pizza.preco());
-    println("Pizza com opções"+opcaoPizza.preco());
+    println("Pizza sem opções"+pizza.price());
+    println(pizza.describe())
+
+    println("Pizza com opções"+opcaoPizza.price());
+    println(opcaoPizza.describe())
 }

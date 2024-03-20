@@ -13,7 +13,7 @@
   <img src="https://readme-typing-svg.herokuapp.com/?color=FF00FF&size=35&center=true&width=290&lines=STRUCTURE"/>
 </div>
 
-<h2 align="right">OQUE ❓</h2>
+<h2 align="right">OQUE É❓</h2>
 
 Nos mostram como montar objetos e classes em estruturas maiores, sem perder a eficiência e flexibilidade.
 
